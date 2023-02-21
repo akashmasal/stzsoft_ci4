@@ -11,7 +11,7 @@ $routes = Services::routes();
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('WebController');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override(
@@ -35,20 +35,21 @@ $routes->set404Override(
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 //website 
-$routes->get('/', 'Home::index');
-$routes->get('/about', 'Home::about_us');
-$routes->get('/website-design-and-development', 'Home::website_design_and_development');
-$routes->get('/digital-marketing', 'Home::digital_marketing');
-$routes->get('/mobile-app-development', 'Home::mobile_app_development');
-$routes->get('/desktop-application', 'Home::desktop_application');
-$routes->get('/web-hosting-and-server-setup', 'Home::web_hosting_and_server_setup');
-$routes->get('/internet-of-things', 'Home::internet_of_things');
-$routes->get('/our-work', 'Home::our_work');
-$routes->get('/contact', 'Home::contact_us');
+$routes->get('/', 'WebController::index');
+$routes->get('/about', 'WebController::about_us');
+$routes->get('/website-design-and-development', 'WebController::website_design_and_development');
+$routes->get('/digital-marketing', 'WebController::digital_marketing');
+$routes->get('/mobile-app-development', 'WebController::mobile_app_development');
+$routes->get('/desktop-application', 'WebController::desktop_application');
+$routes->get('/web-hosting-and-server-setup', 'WebController::web_hosting_and_server_setup');
+$routes->get('/internet-of-things', 'WebController::internet_of_things');
+$routes->get('/our-work', 'WebController::our_work');
+$routes->get('/contact', 'WebController::contact_us');
 
 
 //admin-dashboard
-
+$routes->get('/admin', 'DashController::index');
+$routes->post('/login', 'DashController::login');
 
 
 /*

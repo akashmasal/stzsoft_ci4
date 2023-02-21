@@ -1,4 +1,4 @@
 /public/
-/tests/
-/vendor/
-/writable/
+# /tests/
+# /vendor/
+# /writable/
