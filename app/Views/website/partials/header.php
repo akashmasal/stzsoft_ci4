@@ -15,23 +15,44 @@
                             <ul>
                                 <li class="has-child active">
                                     <a href="<?= base_url();?>">Home</a>
-                                    <i class="bi bi-chevron-down"></i>
+                                    <!-- <i class="bi bi-chevron-down"></i>
                                     <ul class="sub-menu">
                                         <li><a href="<?= base_url();?>">Home 01</a></li>
                                         <li><a href="index2.html">Home 02</a></li>
                                         <li><a href="index3.html">Home 03</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li><a href="<?= base_url('/about');?>">About us</a></li>
                                 <li class="has-child">
                                     <a href="services.html">Services</a>
                                     <i class="bi bi-chevron-down"></i>
                                     <ul class="sub-menu">
+                                        <li><a href="services.html">Website Design & Development</a></li>
+                                        <li><a href="service-details.html">Digital Marketing</a></li>
+                                        <li><a href="services.html">Mobile App Development</a></li>
+                                        <li><a href="service-details.html">Desktop Application</a></li>
+                                        <li><a href="services.html">Web Hosting & Server Setup</a></li>
+                                        <li><a href="service-details.html">Internet Of Things</a></li>
+                                    </ul>
+                                </li>
+                                <!-- <li class="has-child">
+                                    <a href="services.html">Services</a>
+                                    <i class="bi bi-chevron-down"></i>
+                                    <ul class="sub-menu">
                                         <li><a href="services.html">Service</a></li>
                                         <li><a href="service-details.html">Service Details</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li class="has-child">
+                                    <a href="project.html">Our Work</a>
+                                    <!-- <i class="bi bi-chevron-down"></i>
+                                    <ul class="sub-menu">
+                                        <li><a href="project.html">Project</a></li>
+                                        <li><a href="project2.html">Project masonry</a></li>
+                                        <li><a href="project-details.html">Project Details</a></li>
+                                    </ul> -->
+                                </li>
+                                <!-- <li class="has-child">
                                     <a href="project.html">Projects</a>
                                     <i class="bi bi-chevron-down"></i>
                                     <ul class="sub-menu">
@@ -39,8 +60,8 @@
                                         <li><a href="project2.html">Project masonry</a></li>
                                         <li><a href="project-details.html">Project Details</a></li>
                                     </ul>
-                                </li>
-                                <li class="has-child">
+                                </li> -->
+                                <!-- <li class="has-child">
                                     <a href="blog.html">Blogs</a>
                                     <i class="bi bi-chevron-down"></i>
                                     <ul class="sub-menu">
@@ -56,14 +77,14 @@
                                         <li><a href="commingsoon.html">Comming soon</a></li>
                                         <li><a href="error.html">Error 404</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="contact.html">Contact us</a></li>
+                                </li> -->
+                                <li><a href="<?= base_url('/contact');?>">Contact us</a></li>
                             </ul>
-                            <div class="get-quate dn">
+                            <!-- <div class="get-quate dn">
                                 <div class="cmn-btn">
                                     <a href="contact.html">Get a quote</a>
                                 </div>
-                            </div>
+                            </div> -->
                         </nav>
                         <div class="mobile-menu">
                             <a href="javascript:void(0)" class="cross-btn">
@@ -73,13 +94,13 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2 text-end">
+                    <!-- <div class="col-12 col-sm-4 col-md-3 col-lg-3 col-xl-2 text-end">
                         <div class="get-quate">
                             <div class="cmn-btn">
                                 <a href="contact.html">Get a quote</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </header>

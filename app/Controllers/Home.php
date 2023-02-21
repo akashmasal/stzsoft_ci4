@@ -14,4 +14,8 @@ class Home extends BaseController
         $data['page'] = "website/pages/about_us";
         return view('website/partials/template',$data);
     }
+    function contact_us(){
+        $data['page'] = "website/pages/contact_us";
+        return view('website/partials/template',$data);
+    }
 }
