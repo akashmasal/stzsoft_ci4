@@ -22,7 +22,7 @@
                                         <li><a href="index3.html">Home 03</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about.html">About us</a></li>
+                                <li><a href="<?= base_url('/about');?>">About us</a></li>
                                 <li class="has-child">
                                     <a href="services.html">Services</a>
                                     <i class="bi bi-chevron-down"></i>
