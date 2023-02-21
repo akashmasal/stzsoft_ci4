@@ -34,6 +34,7 @@ $routes->set404Override(
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+//website 
 $routes->get('/', 'Home::index');
 $routes->get('/about', 'Home::about_us');
 $routes->get('/website-design-and-development', 'Home::website_design_and_development');
@@ -44,6 +45,11 @@ $routes->get('/web-hosting-and-server-setup', 'Home::web_hosting_and_server_setu
 $routes->get('/internet-of-things', 'Home::internet_of_things');
 $routes->get('/our-work', 'Home::our_work');
 $routes->get('/contact', 'Home::contact_us');
+
+
+//admin-dashboard
+
+
 
 /*
  * --------------------------------------------------------------------
