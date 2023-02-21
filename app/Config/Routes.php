@@ -36,6 +36,13 @@ $routes->set404Override(
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/about', 'Home::about_us');
+$routes->get('/website-design-and-development', 'Home::website_design_and_development');
+$routes->get('/digital-marketing', 'Home::digital_marketing');
+$routes->get('/mobile-app-development', 'Home::mobile_app_development');
+$routes->get('/desktop-application', 'Home::desktop_application');
+$routes->get('/web-hosting-and-server-setup', 'Home::web_hosting_and_server_setup');
+$routes->get('/internet-of-things', 'Home::internet_of_things');
+$routes->get('/our-work', 'Home::our_work');
 $routes->get('/contact', 'Home::contact_us');
 
 /*

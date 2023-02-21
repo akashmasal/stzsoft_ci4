@@ -24,15 +24,15 @@
                                 </li>
                                 <li><a href="<?= base_url('/about');?>">About us</a></li>
                                 <li class="has-child">
-                                    <a href="services.html">Services</a>
+                                    <a href="javascript:void(0)">Services</a>
                                     <i class="bi bi-chevron-down"></i>
                                     <ul class="sub-menu">
-                                        <li><a href="services.html">Website Design & Development</a></li>
-                                        <li><a href="service-details.html">Digital Marketing</a></li>
-                                        <li><a href="services.html">Mobile App Development</a></li>
-                                        <li><a href="service-details.html">Desktop Application</a></li>
-                                        <li><a href="services.html">Web Hosting & Server Setup</a></li>
-                                        <li><a href="service-details.html">Internet Of Things</a></li>
+                                        <li><a href="<?= base_url('/website-design-and-development');?>">Website Design & Development</a></li>
+                                        <li><a href="<?= base_url('/digital-marketing');?>">Digital Marketing</a></li>
+                                        <li><a href="<?= base_url('/mobile-app-development');?>">Mobile App Development</a></li>
+                                        <li><a href="<?= base_url('/desktop-application');?>">Desktop Application</a></li>
+                                        <li><a href="<?= base_url('/web-hosting-and-server-setup');?>">Web Hosting & Server Setup</a></li>
+                                        <li><a href="<?= base_url('/internet-of-things');?>">Internet Of Things</a></li>
                                     </ul>
                                 </li>
                                 <!-- <li class="has-child">
@@ -44,7 +44,7 @@
                                     </ul>
                                 </li> -->
                                 <li class="has-child">
-                                    <a href="project.html">Our Work</a>
+                                    <a href="<?= base_url('/our-work');?>">Our Work</a>
                                     <!-- <i class="bi bi-chevron-down"></i>
                                     <ul class="sub-menu">
                                         <li><a href="project.html">Project</a></li>
