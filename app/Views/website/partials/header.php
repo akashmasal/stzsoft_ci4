@@ -22,7 +22,7 @@
                                         <li><a href="index3.html">Home 03</a></li>
                                     </ul> -->
                                 </li>
-                                <li><a href="<?= base_url('/about');?>">About us</a></li>
+                                <li><a href="<?= base_url('/about-us');?>">About us</a></li>
                                 <li class="has-child">
                                     <a href="javascript:void(0)">Services</a>
                                     <i class="bi bi-chevron-down"></i>
@@ -78,7 +78,7 @@
                                         <li><a href="error.html">Error 404</a></li>
                                     </ul>
                                 </li> -->
-                                <li><a href="<?= base_url('/contact');?>">Contact us</a></li>
+                                <li><a href="<?= base_url('/contact-us');?>">Contact us</a></li>
                             </ul>
                             <!-- <div class="get-quate dn">
                                 <div class="cmn-btn">

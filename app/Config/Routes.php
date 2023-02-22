@@ -36,7 +36,7 @@ $routes->set404Override(
 // route since we don't have to scan directories.
 //website 
 $routes->get('/', 'WebController::index');
-$routes->get('/about', 'WebController::about_us');
+$routes->get('/about-us', 'WebController::about_us');
 $routes->get('/website-design-and-development', 'WebController::website_design_and_development');
 $routes->get('/digital-marketing', 'WebController::digital_marketing');
 $routes->get('/mobile-app-development', 'WebController::mobile_app_development');
@@ -44,7 +44,7 @@ $routes->get('/desktop-application', 'WebController::desktop_application');
 $routes->get('/web-hosting-and-server-setup', 'WebController::web_hosting_and_server_setup');
 $routes->get('/internet-of-things', 'WebController::internet_of_things');
 $routes->get('/our-work', 'WebController::our_work');
-$routes->get('/contact', 'WebController::contact_us');
+$routes->get('/contact-us', 'WebController::contact_us');
 
 
 //admin-dashboard

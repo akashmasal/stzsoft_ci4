@@ -32,7 +32,7 @@
                         <i class="bi bi-geo-alt"></i>
                     </div>
                     <h4>Location</h4>
-                    <p>168/170, Ave 01,Old York Drive Rich Mirpur, Dhaka, Bangladesh</p>
+                    <p>1-B (12), Ground Floor, Saroagi Estate, L.B.S Marg, Kanjurmarg (West), Mumbai-400078.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4">
@@ -41,8 +41,9 @@
                         <i class="bi bi-telephone"></i>
                     </div>
                     <h4>Phone</h4>
-                    <a href="tel:0123456789102">+012-3456-789102</a>
-                    <a href="tel:013456789102">+012-3456-789102</a>
+                    <!-- <a href="tel:0123456789102">+012-3456-789102</a> -->
+                    <!-- <a href="tel:013456789102">+012-3456-789102</a> -->
+                    <a href="tel:+022 5067 7245">+022 5067 7245</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4">
@@ -51,14 +52,11 @@
                         <i class="bi bi-envelope"></i>
                     </div>
                     <h4>Email</h4>
-                    <a
+                    <!-- <a
                         href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#dfb6b1b9b09fbaa7beb2afb3baf1bcb0b2"><span
                             class="__cf_email__"
-                            data-cfemail="bcd5d2dad3fcd9c4ddd1ccd0d992dfd3d1">[email&#160;protected]</span></a>
-                    <a
-                        href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#9be8eeebebf4e9efdbfee3faf6ebf7feb5f8f4f6"><span
-                            class="__cf_email__"
-                            data-cfemail="91e2e4e1e1fee3e5d1f4e9f0fce1fdf4bff2fefc">[email&#160;protected]</span></a>
+                            data-cfemail="bcd5d2dad3fcd9c4ddd1ccd0d992dfd3d1">[email&#160;protected]</span></a> -->
+                    <a href="mailto:info@stzsoft.com"><span>info@stzsoft.com</span></a>
                 </div>
             </div>
         </div>
