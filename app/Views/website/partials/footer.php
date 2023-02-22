@@ -4,7 +4,7 @@
             <div class="col-md-3 col-lg-3 col-xl-3">
                 <div class="footer-widget">
                     <div class="footer-logo">
-                        <a href="<?= base_url(); ?>"><img src="<?= base_url(); ?>/assets/website/img/logo.png" alt=""></a>
+                        <a href="<?= base_url(); ?>"><img src="<?= base_url(); ?>/assets/website/img/logo_white.png" alt=""></a>
                     </div>
                     <address>
                         <h4>Office</h4>

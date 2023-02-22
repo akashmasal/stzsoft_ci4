@@ -49,14 +49,14 @@
                                         <label class="form-label" for="username">Username</label>
                                         <input type="text" class="form-control" id="username" name="username"
                                             placeholder="Enter username">
-                                            <span id="username"></span>
+                                            <span id="uerror"></span>
                                     </div>
 
                                     <div class="mb-3">
                                         <label class="form-label" for="userpassword">Password</label>
                                         <input type="password" class="form-control" id="password" name="password"
                                             placeholder="Enter password">
-                                            <span id="password"></span>
+                                            <span id="perror"></span>
                                     </div>
 
                                     <div class="mb-3 row">
@@ -115,14 +115,9 @@
                     dataType : "json",
                     success : function(data){
                         if(data.errors){
-                            console.log("ok");
-                        } else {
-                            var username = data.errors['username'];
-                            var password = data.errors['password'];
-
-                            document.getElementById('#username').innerHTML = username;
-                            document.getElementById('#password').innerHTML = password;
-                        }
+                            var user = document.getElementById('uerror').innerHTML = data.errors.username;
+                            var pass = document.getElementById('perror').innerHTML = data.errors.password;
+                        } 
                     },
                     error : function(error){
                         console.log(error);

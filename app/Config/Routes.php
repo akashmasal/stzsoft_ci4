@@ -50,6 +50,8 @@ $routes->get('/contact', 'WebController::contact_us');
 //admin-dashboard
 $routes->get('/admin', 'DashController::index');
 $routes->post('/login', 'DashController::login');
+$routes->get('/dashboard', 'DashController::dashboard');
+
 
 
 /*

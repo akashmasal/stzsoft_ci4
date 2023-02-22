@@ -4,13 +4,13 @@
                 <div class="row align-items-center">
                     <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-2">
                         <div class="logo">
-                            <a href="<?= base_url();?>"><img src="<?= base_url();?>/assets/website/img/logo.png" alt=""></a>
+                            <a href="<?= base_url();?>"><img src="<?= base_url();?>/assets/website/img/logo_white.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col col-sm-5 col-md-6 col-lg-6 col-xl-8 text-end">
                         <nav class="main-nav">
                             <div class="mobile-menu-logo">
-                                <a href="<?= base_url();?>"><img src="<?= base_url();?>/assets/website/img/logo.png" alt=""></a>
+                                <a href="<?= base_url();?>"><img src="<?= base_url();?>/assets/website/img/logo_white.png" alt=""></a>
                             </div>
                             <ul>
                                 <li class="has-child active">
