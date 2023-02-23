@@ -21,11 +21,15 @@
             <div class="col-12">
                 <div class="project-tab">
                     <ul class="project-filter-tab">
-                        <li class="active" data-filter="*">All</li>
+                        <!-- <li class="active" data-filter="*">All</li>
                         <li data-filter=".uiux">UI/UX</li>
                         <li data-filter=".web">Web Design</li>
                         <li data-filter=".developing">Developing</li>
-                        <li data-filter=".graphics">Graphic Design</li>
+                        <li data-filter=".graphics">Graphic Design</li> -->
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".uiux">E-Commerce</li>
+                        <li data-filter=".web">Website</li>
+                        <li data-filter=".developing">Mobile Application</li>
                     </ul>
                 </div>
             </div>
