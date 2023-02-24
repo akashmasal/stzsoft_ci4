@@ -47,7 +47,7 @@ class DashController extends BaseController
                 //     'status' => true,
                 // ];
 
-                // echo json_encode($data);
+                echo json_encode($data);
                 // echo "exist";
             } else {
                 // echo "not exist";
@@ -58,6 +58,7 @@ class DashController extends BaseController
 
     function dashboard(){
         $data['page_title'] = "STZSOFT - ADMIN DASHBOARD";
-        return view('admin/pages/dashboard', $data);
+        $data['page'] = 'admin/pages/dashboard';
+        return view('admin/partials/template', $data);
     }
 }

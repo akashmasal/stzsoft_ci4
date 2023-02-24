@@ -673,7 +673,8 @@ header {
   padding: 10px 0;
   opacity: 0;
   visibility: hidden;
-  min-width: 200px;
+  /* min-width: 200px; */
+  min-width: 300px;
   background: #222;
   text-align: left;
   border-radius: 5px;
